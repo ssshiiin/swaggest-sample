@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://localhost:1234/schemas/node/italic",
+  "type": "object",
+  "definitions": {
+    "italic": {
+      "description": "italicノード",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "pattern": "^italic$"
+        },
+        "children": {
+          "$ref": "inline#/definitions/inline"
+        }
+      },
+      "required": ["type", "children"]
+    }
+  },
+  "$ref": "#/definitions/italic"
+}

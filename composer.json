@@ -1,0 +1,17 @@
+{
+    "name": "ca01978/swaggest",
+    "require": {
+        "swaggest/json-schema": "^0.12.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ca01978\\Swaggest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ssshiiin",
+            "email": "ssshiiin527@gmail.com"
+        }
+    ]
+}
